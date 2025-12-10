@@ -1,0 +1,112 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999773" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="38.98640504624018" scrolly="30.936513492922302" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="tN7X$?fz,JUBGt3*v?}t" inline="false" x="-10" y="70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=")j[_hniY~|q]b%8y-G5_">
+          <field name="FIELDNAME">Plane.001</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="iwO^$qceB6pj%*B9uWkx">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id=":tOu!ov/L;@KzZzq0~Wm">
+              <field name="FIELDNAME">Empty</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="!3Ldc`+f(E/hsyXqzkQ)">
+              <field name="FIELDNAME">Plane.001</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="v]1kqqJSM6hL*DwP07Fs">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="aQ*X1(k/ZJZWW{^7g*,=" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="*TfiDg1;K4x2QQ{yK0DA">
+              <field name="FIELDNAME">Plane.002</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="R-o5*O5tqxTBOuyemwo=">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">LINEAR</field>
+              <value name="POSITION">
+                <block type="objectList" id="kGfnzmcqq,.[h5mt+j#$">
+                  <field name="FIELDNAME">Empty</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="8~]KCuaDHc==KwiBe/M@">
+                  <field name="FIELDNAME">Plane.002</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="`_VKJ$Zj)t~,rSHhm9o/">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="VP6!KXw=[:T|5$r[sVHt" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="+]fZRiep?jDxsKX0R?oV">
+                  <field name="FIELDNAME">Silla</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="tweenCameraExt" id="Tm:kFDVJ301Wlrr2;3Ig">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                  <field name="MOVEMENT_TYPE">LINEAR</field>
+                  <value name="POSITION">
+                    <block type="objectList" id="zW7Xlb}g.xR0gj[v3lYB">
+                      <field name="FIELDNAME">Empty</field>
+                    </block>
+                  </value>
+                  <value name="LOOKAT">
+                    <block type="objectList" id="ks@:H]R8)?X#-@ic[;7@">
+                      <field name="FIELDNAME">Plane</field>
+                    </block>
+                  </value>
+                  <value name="DURATION">
+                    <shadow type="math_number" id="caXdzOUCF-L)gAnO7*jL">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="898.8" viewport-y="37" viewport-w="611.2" viewport-h="366" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
